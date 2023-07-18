@@ -1,123 +1,70 @@
----
-layout: default
----
-
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+﻿﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>超级商店-TVBox配置接口解密</title>
+     
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     <meta name="keywords" content="超级商店-发布页,永久有效地址！" />
+     <meta name="description" content="超级商店-发布页，关注，TVBox，配置，接口，动态，解密，必应，收藏，绿清，回家，不迷路！" />
+     <link rel="shortcut icon" type="image/x-icon" href="/images/icon.ico">
+    <!-- 引入Bootstrap样式库 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body {
+            margin-top: 40px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        .input-group {
+            margin-bottom: 20px;
+        }
+        .loading {
+            display: none;
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+            .container {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mb-5">TVBox配置接口解密</h1>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" id="url" value="" placeholder="输入接口地址，没地址？关注公众号猫技回复接口">
+            <button class="btn btn-secondary" type="button" onclick="crawl()">解密</button>
+        </div>
+       
+        <div class="text-center loading" id="loading">
+          <div class="spinner-border" role="status">
+            野<span class="visually-hidden">Loading...</span>
+          </div>
+        </div>
+       
+        <textarea class="form-control" id="result" cols="80" rows="20" readonly></textarea>
+        <div class="text-center mt-3">
+             <a href="https://m.n13.club/"  target="_blank"class="btn btn-primary">主页</a>
+             <button class="btn btn-warning" onclick="copyText()">复制</button>
+             <button class="btn btn-success" onclick="window.location.href = 'https://bjq.n13.club/'">编辑器</button>
+            <a href="https://mp.weixin.qq.com/s/63NhS-LbZn02Xj-hJFTdCg"  target="_blank"class="btn btn-danger">更多资源关注猫技公众号</a>
+            
+        </div>
+    </div>
+    <!-- 引入Bootstrap JS库 -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.mins.js"></script>
 
 
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+   
+</body>
+<!--雪花API-->
+<script src='https://api.vvhan.com/api/snow'></script>
+</html>
